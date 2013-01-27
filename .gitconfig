@@ -1,0 +1,18 @@
+[user]
+	name = Tom De Leu
+	email = ...
+[color]
+	ui = true
+[alias]
+	co = checkout
+	st = status
+	br = branch
+	ci = commit
+	ri = rebase --interactive
+	lo = log --pretty=oneline
+[github]
+	user = tdl
+	token = ...
+[core]
+[push]
+	default = upstream
