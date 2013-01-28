@@ -10,9 +10,14 @@
 	ci = commit
 	ri = rebase --interactive
 	lo = log --pretty=oneline
+	dc = diff --cached
+[merge]
+	renameLimit = 0
 [github]
 	user = tdl
 	token = ...
 [core]
 [push]
-	default = upstream
+	default = simple
+[diff]
+	renameLimit = 0
