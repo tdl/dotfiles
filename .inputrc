@@ -1,0 +1,2 @@
+# immediately show possibilities instead of ringing the bell
+set show-all-if-ambiguous on
