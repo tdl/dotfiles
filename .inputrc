@@ -1,2 +1,14 @@
 # immediately show possibilities instead of ringing the bell
 set show-all-if-ambiguous on
+
+# PageUp
+"\e[5~": history-search-backward
+
+# PageDown
+"\e[6~": history-search-forward
+
+# Ctrl+Up
+"\e[1;5A": beginning-of-history
+
+# Ctrl+Down
+"\e[1;5B": end-of-history
