@@ -1,11 +1,13 @@
 # immediately show possibilities instead of ringing the bell
 set show-all-if-ambiguous on
 
-# PageUp, PageDown, Ctrl+Up, Ctrl+Down
-"\e[5~": history-search-backward
-"\e[6~": history-search-forward
-"\e[1;5A": beginning-of-history
-"\e[1;5B": end-of-history
+# Home, End, PageUp, PageDown, Up, Down
+"\e[1~": beginning-of-line
+"\e[4~": end-of-line
+"\e[5~": beginning-of-history
+"\e[6~": end-of-history
+"\e[A":  history-search-backward
+"\e[B":  history-search-forward
 
 # Alt+Left, Alt+Right
 "\e\e[D": backward-word
