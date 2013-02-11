@@ -16,9 +16,6 @@ unset MAILCHECK
 # editor
 export EDITOR='mate -w'
 
-# Homebrew / XCode fix
-export PATH=/usr/local/bin:$PATH # so Homebrew's git is found before XCode's git
-
 # git completion
 if [ -f `brew --prefix`/etc/bash_completion.d/git-completion.bash ]; then
 . `brew --prefix`/etc/bash_completion.d/git-completion.bash
